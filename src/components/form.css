@@ -1,0 +1,39 @@
+.form-container {
+  background-color: white;
+  padding: 20px;
+  display: grid;
+  border-radius: 10px;
+  width: clamp(100px, 80%, 500px);
+}
+
+.form {
+  display: grid;
+  place-items: center;
+
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.input-container {
+  display: grid;
+  width: 95%;
+  gap: 10px;
+  grid-column: span 2;
+}
+
+.form button {
+  grid-column: span 2;
+}
+
+.addButton {
+  width: 80%;
+}
+
+.runButton {
+  width: 30%;
+}
+
+.main-accordion {
+  grid-column: span 2;
+  width: 100%;
+}
